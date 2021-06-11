@@ -1,13 +1,14 @@
 pipeline {
     
-    agent any
+    agent { docker { image 'ubuntu:18.04' } }
 
     stages {
 
         stage("build") {
             
             steps {
-                echo 'test'
+                echo 'installing python'
+                sh 'apt-get update -y && apt-get install -y python3'
             }
             
         }

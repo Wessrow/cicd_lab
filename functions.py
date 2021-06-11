@@ -14,4 +14,4 @@ def subtract(x,y):
 
 if __name__ == "__main__":
     """ Run this if not imported """
-    pass
+    add(3,4)
