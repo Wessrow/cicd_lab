@@ -5,15 +5,23 @@ pipeline {
     stages {
 
         stage("build") {
-            echo 'test'
+            
+            steps {
+                echo 'test'
+            }
+            
         }
 
         stage("test"){
-            echo 'another test'
+            steps {
+                echo 'another test'
+            }
         }
 
         stage("deploy"){
-            echo 'if success'
+            steps {
+                echo 'if success'
+            }
         }
     }
 }
