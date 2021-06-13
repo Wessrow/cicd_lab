@@ -8,7 +8,6 @@ pipeline {
             
             steps {
                 echo 'installing python'
-                sh 'sudo apt-get update -y && apt-get install -y python3'
             }
             
         }
