@@ -6,7 +6,7 @@ Written as part of DEVCOR Studies
 
 def add(_x,_y):
     """ Simple adding """
-    return _x+_y
+    return _x+_y i
 
 def subtract(_x,_y):
     """ Simple subtration """
