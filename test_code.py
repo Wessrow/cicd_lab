@@ -5,6 +5,7 @@ Written by Gustav Larsson
 """
 
 from functions import add, subtract
+from api_lab import main
 
 def test_add():
     """ Testing adding function """
@@ -13,3 +14,9 @@ def test_add():
 def test_subtract():
     """ Testing subtraction function """
     assert subtract(5, 2) == 3
+
+def test_request():
+    """ Testing request status code """
+    req_ok = 200
+
+    assert main().status_code is req_ok
