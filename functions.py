@@ -4,14 +4,13 @@ CI/CD Lab  - By Gustav Larsson
 Written as part of DEVCOR Studies
 """
 
-def add(x,y):
+def add(_x,_y):
     """ Simple adding """
-    return x+y
+    return _x+_y
 
-def subtract(x,y):
+def subtract(_x,_y):
     """ Simple subtration """
-    return x-y
+    return _x-_y
 
 if __name__ == "__main__":
-    """ Run this if not imported """
     add(3,4)

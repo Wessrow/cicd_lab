@@ -7,9 +7,9 @@ Written by Gustav Larsson
 from functions import add, subtract
 
 def test_add():
-
-    assert add(2, 5) is 7
+    """ Testing adding function """
+    assert add(2, 5) == 7
 
 def test_subtract():
-
-    assert subtract(5, 2) is 3
+    """ Testing subtraction function """
+    assert subtract(5, 2) == 3
