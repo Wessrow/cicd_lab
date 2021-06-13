@@ -4,13 +4,13 @@ Labbing requests CI/CD issues
 By Gustav Larsson
 """
 
-import requests
 import json
+import requests
 
 requests.urllib3.disable_warnings()
 
 def main():
-
+    """ Main request function """
     base_url = "https://api.github.com/repositories?page=5&per_page=2"
 
     response = requests.get(base_url)
